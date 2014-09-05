@@ -1,5 +1,28 @@
 // Version => "major-release.minor-release.patch-number" e.g == "1.5.234"
 {
 	"name" : "package-name",
-	"version" : "0.0.1"
+	"version" : "0.0.1",
+	"description" : "Here is a description of the module",
+	"keywords" : [
+		"foo",
+		"bar",
+		"baz"
+	],
+	"author" : {
+		"name" : "Samet Sisartenep",
+		"email" : "krashbuffer@gmail.com",
+		"url" : "http://github.com/SametSisartenep"
+	},
+	"contributors" : [
+		{
+			"name" : "Mr. Potato",
+			"email" : "mrpotato@deface.com",
+			"url" : "http://mrpota.to/home"
+		},
+		{
+			"name" : "Mad Cat (Boobie)",
+			"email" : "madcat@boob.com",
+			"url" : "http://kittencity.com/user/madKatt"
+		}
+	]
 }
