@@ -23,6 +23,12 @@
 			"name" : "Mad Cat (Boobie)",
 			"email" : "madcat@boob.com",
 			"url" : "http://kittencity.com/user/madKatt"
-		}
-	]
+		},
+		"Colin Mantrax <man@trax.com> (http://undermoss.org/the-mantrax-you-feel)",
+		"Abey Keine <abey.ki@outsee.com> (http://bookface.com/user?name=abeyki)"
+	],
+	"main" : "./src/bar.js",
+	"dependencies" : {
+		"some-package" : "1.1.x"
+	}
 }
