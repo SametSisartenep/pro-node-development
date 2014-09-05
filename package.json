@@ -1,4 +1,3 @@
-// Version => "major-release.minor-release.patch-number" e.g == "1.5.234"
 {
 	"name" : "package-name",
 	"version" : "0.0.1",
