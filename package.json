@@ -1,47 +1,24 @@
 {
-	"name" : "package-name",
-	"version" : "0.0.1",
-	"engines" : {
-		"node" : ">= 0.10.12",
-		"npm" : "1.3.x"
-	},
-	"scripts" : {
-		"start" : "nodejs server.js",
-		"test" : "echo \"Error: no test specified\" && exit 1"
-	},
-	"description" : "Here is a description of the module",
-	"keywords" : [
-		"foo",
-		"bar",
-		"baz"
-	],
-	"author" : {
-		"name" : "Samet Sisartenep",
-		"email" : "krashbuffer@gmail.com",
-		"url" : "http://github.com/SametSisartenep"
-	},
-	"contributors" : [
-		{
-			"name" : "Mr. Potato",
-			"email" : "mrpotato@deface.com",
-			"url" : "http://mrpota.to/home"
-		},
-		{
-			"name" : "Mad Cat (Boobie)",
-			"email" : "madcat@boob.com",
-			"url" : "http://kittencity.com/user/madKatt"
-		},
-		"Colin Mantrax <man@trax.com> (http://undermoss.org/the-mantrax-you-feel)",
-		"Abey Keine <abey.ki@outsee.com> (http://bookface.com/user?name=abeyki)"
-	],
-	"main" : "./src/bar.js",
-	"dependencies" : {
-		"some-package" : "1.1.x"
-	},
-	"devDependencies" : {
-		"mocha-pack" : "~1.8.1"
-	},
-	"optionalDependencies" : {
-		"another-pack" : "v3.9.x"
-	}
+  "name": "some-name",
+  "version": "0.1.1",
+  "description": "Some description of the package",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SametSisartenep/pro-node-development.git"
+  },
+  "keywords": [
+    "nodejs",
+    "foo",
+    "bar"
+  ],
+  "author": "Samet Sisartenep",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/SametSisartenep/pro-node-development/issues"
+  }
 }
