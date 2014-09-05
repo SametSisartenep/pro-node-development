@@ -2,6 +2,14 @@
 {
 	"name" : "package-name",
 	"version" : "0.0.1",
+	"engines" : {
+		"node" : ">= 0.10.12",
+		"npm" : "1.3.x"
+	},
+	"scripts" : {
+		"start" : "nodejs server.js",
+		"test" : "echo \"Error: no test specified\" && exit 1"
+	},
 	"description" : "Here is a description of the module",
 	"keywords" : [
 		"foo",
@@ -30,5 +38,11 @@
 	"main" : "./src/bar.js",
 	"dependencies" : {
 		"some-package" : "1.1.x"
+	},
+	"devDependencies" : {
+		"mocha-pack" : "~1.8.1"
+	},
+	"optionalDependencies" : {
+		"another-pack" : "v3.9.x"
 	}
 }
